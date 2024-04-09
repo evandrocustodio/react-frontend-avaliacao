@@ -13,7 +13,9 @@ type Info = {
   hostname: string;
 }
 const BACKEND_URL = "localhost:8080";
-const API_URL = `http://${BACKEND_URL}`;
+
+const API_URL = `https://${BACKEND_URL}`;
+
 const App = () => {
 
 
